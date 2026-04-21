@@ -29,3 +29,15 @@ The system follows a microservices architecture with:
 - `docs/` ADRs, OpenAPI, diagrams, report material
 - `deploy/` Docker, Compose, K8s, monitoring, logging assets
 - `tests/` integration, contract, and load testing
+
+## Run a service
+From any service folder:
+
+```bash
+go run ./cmd/server
+```
+
+Or build it:
+
+```bash
+go build ./cmd/server
